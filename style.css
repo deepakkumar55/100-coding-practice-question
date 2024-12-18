@@ -1,0 +1,106 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Body Styling */
+  body {
+    font-family: 'Poppins', Arial, sans-serif;
+    line-height: 1.6;
+    background: linear-gradient(145deg, #e3f2fd, #bbdefb);
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+  }
+  
+  /* Container Styling */
+  .container {
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    max-width: 900px;
+    width: 100%;
+  }
+  
+  /* Header Styling */
+  header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    color: #007bff;
+    margin-bottom: 10px;
+  }
+  
+  #search-bar {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    font-size: 1rem;
+    outline: none;
+    transition: all 0.3s;
+  }
+  
+  #search-bar:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.4);
+  }
+  
+  /* Topic Headings */
+  h2 {
+    font-size: 1.5rem;
+    color: #3f51b5;
+    margin-top: 30px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #3f51b5;
+  }
+  
+  /* Question List Styling */
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background: #f9f9f9;
+    padding: 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, background 0.3s;
+  }
+  
+  li:hover {
+    background: #e3f2fd;
+    transform: translateX(10px);
+  }
+  
+  li::before {
+    content: "📘";
+    margin-right: 10px;
+    font-size: 1.5rem;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    h1 {
+      font-size: 1.5rem;
+    }
+  
+    li {
+      font-size: 0.9rem;
+      padding: 10px;
+    }
+  }
+  
