@@ -27,5 +27,3 @@ Whenever you make a contribution, kindly update the `README.md` file by adding d
 ### Let’s make this repository better together! 💻💡
 
 ---
-
-You can add this announcement to your repository's README file or create a dedicated issue to highlight the open-source initiative.
